@@ -6,30 +6,32 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
 
-public class NeckbandPackage implements Question<Boolean> {
+public class CategorieCreate implements Question<Boolean> {
 
 	private String question;
 
-	public NeckbandPackage(String question) {
+	public CategorieCreate(String question) {
 		this.question = question;
 	}
 
-	public static NeckbandPackage toThe(String question) {
-		return new NeckbandPackage(question);
+	public static CategorieCreate toThe(String question) {
+		return new CategorieCreate(question);
 	}
 
 	@Override
 	public Boolean answeredBy(Actor actor) {
 
 		boolean result;
-
-		String tirilla = Text.of( "" ).viewedBy(actor).asString();
-
-		if ( question.equals(tirilla) ) {
+		
+		String categorie  = Text.of( CategoriesPage.LABEL_CAT ).viewedBy(actor).asString();
+		System.out.println(categorie);
+		System.out.println( question );
+		
+		if ( question.equals( categorie ) ) {
 			result = true;
 		} else {
 			result = false;
-		}	
+		}				
 		return result;
 	}
 

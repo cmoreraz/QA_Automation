@@ -11,6 +11,7 @@ public class CategorieData {
 	private String txtRussian;
 	private String txtFarsi;
 	private String txtFrench;
+	private String strNameCategorie;
 	
 	public String getTxtName() {
 		return txtName;
@@ -38,6 +39,9 @@ public class CategorieData {
 	}
 	public String getTxtFrench() {
 		return txtFrench;
+	}
+	public String getStrNameCategorie() {
+		return strNameCategorie;
 	}
 
 }

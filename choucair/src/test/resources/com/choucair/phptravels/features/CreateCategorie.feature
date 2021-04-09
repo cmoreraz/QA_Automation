@@ -14,12 +14,11 @@ Feature: Login to the phptravels page
     Then Enter the form data and add the category
       | txtName  | txtTurkish	| txtArabic  | txtGerman  | txtVietnamese	| txtSpanish  | txtRussian | txtFarsi	| txtFrench  |
       | <txtName>|<txtTurkish>|<txtArabic> |<txtGerman>	|<txtVietnamese>|<txtSpanish>	|<txtRussian>|<txtFarsi>|<txtFrench> |
-    And doy clic en el boton continuar
-    Then valido que aparezca la tirilla de recarga
-    	| strQuestion  |
-      | <strQuestion> |
+    And Validate categorie create
+    	| strNameCategorie  |
+      | <strNameCategorie > |
 
     Examples: 
-       |txtName|txtTurkish|txtArabic|txtGerman|txtVietnamese|txtSpanish|txtRussian|txtFarsi|txtFrench|
-       |txtName|txtTurkish|txtArabic|txtGerman|txtVietnamese|txtSpanish|txtRussian|txtFarsi|txtFrench|
+       |txtName|txtTurkish|txtArabic|txtGerman|txtVietnamese|txtSpanish|txtRussian|txtFarsi|txtFrench|strNameCategorie|
+       |Categorie 3|2|3|4|5|6|7|8|9|Categorie 3|
 
