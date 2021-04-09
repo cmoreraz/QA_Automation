@@ -24,8 +24,6 @@ public class CategorieCreate implements Question<Boolean> {
 		boolean result;
 		
 		String categorie  = Text.of( CategoriesPage.LABEL_CAT ).viewedBy(actor).asString();
-		System.out.println(categorie);
-		System.out.println( question );
 		
 		if ( question.equals( categorie ) ) {
 			result = true;

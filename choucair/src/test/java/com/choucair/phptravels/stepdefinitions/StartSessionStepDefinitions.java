@@ -19,7 +19,7 @@ import net.serenitybdd.screenplay.actors.OnlineCast;
  *
  */
 
-public class startSessionStepDefinitions {
+public class StartSessionStepDefinitions {
 	
 	@Before
     public void setTheStage( ) {

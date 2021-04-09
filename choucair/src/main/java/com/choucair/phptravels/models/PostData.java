@@ -5,7 +5,7 @@ package com.choucair.phptravels.models;
  * @author cristian.morera
  *
  */
-public class ReloadData {
+public class PostData {
 	
 	private String strNumber;
 	private String strPassword;

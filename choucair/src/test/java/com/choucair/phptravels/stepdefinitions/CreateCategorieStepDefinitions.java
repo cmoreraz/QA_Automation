@@ -8,7 +8,6 @@ import com.choucair.phptravels.tasks.EnterButtonAddCategorie;
 import com.choucair.phptravels.tasks.InputFormCategorie;
 import com.choucair.phptravels.tasks.SelectMenuBlog;
 import com.choucair.phptravels.tasks.SelectSubMenuBlogCat;
-import com.choucair.phptravels.utils.GenericTime;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -50,7 +49,6 @@ public class CreateCategorieStepDefinitions {
 	
 	@Then("^Validate categorie create$")
 	public void validateCategorieCreate( List<CategorieData> dataCategorie ) throws Exception {
-		GenericTime.three();
 		OnStage.theActorInTheSpotlight().should( GivenWhenThen.seeThat( CategorieCreate.toThe( dataCategorie.get(0).getStrNameCategorie())));
 	}
 }

@@ -16,7 +16,7 @@ Feature: Login to the phptravels page
       | <txtName>|<txtTurkish>|<txtArabic> |<txtGerman>	|<txtVietnamese>|<txtSpanish>	|<txtRussian>|<txtFarsi>|<txtFrench> |
     And Validate categorie create
     	| strNameCategorie  |
-      | <strNameCategorie > |
+      | <strNameCategorie> |
 
     Examples: 
        |txtName|txtTurkish|txtArabic|txtGerman|txtVietnamese|txtSpanish|txtRussian|txtFarsi|txtFrench|strNameCategorie|
