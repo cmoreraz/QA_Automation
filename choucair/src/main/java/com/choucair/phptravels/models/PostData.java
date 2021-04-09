@@ -5,28 +5,32 @@ package com.choucair.phptravels.models;
  * @author cristian.morera
  *
  */
-public class PostData {
+public class PostData {	
 	
-	private String strNumber;
-	private String strPassword;
-	private String strOperador;	
-	private String strValor;
-	private String strQuestion;
+	private String txtTitle;
+	private String txtLink;
+	private String txtCont;
+	private String txtNameCat;	
+	private String txtKeywords;
+	private String txtDescription;
 	
-	public String getStrNumber() {
-		return strNumber;
+	public String getTxtTitle() {
+		return txtTitle;
 	}
-	public String getStrPassword() {
-		return strPassword;
+	public String getTxtCont() {
+		return txtCont;
 	}
-	public String getStrOperador() {
-		return strOperador;
+	public String getTxtNameCat() {
+		return txtNameCat;
 	}
-	public String getStrValor() {
-		return strValor;
+	public String getTxtKeywords() {
+		return txtKeywords;
 	}
-	public String getStrQuestion() {
-		return strQuestion;
+	public String getTxtDescription() {
+		return txtDescription;
 	}
+	public String getTxtLink() {
+		return txtLink;
+	}	
 
 }
