@@ -1,0 +1,560 @@
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 15:40:10 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.out***core***Fri Mar 26 15:40:12 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Tipo Envio: 0
+Tipo Envio Trace: 0
+MessageManager:::
+IClientMessage:::
+MessageManager::: com.brainwinner.otp.client.aldeamo.AldeamoChannel@5e6e1c10
+CORE ISO :127.0.0.1:28600
+Disconnecting.....
+Disconnect
+Disconnecting.....
+Disconnect
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.err***core***Fri Mar 26 15:40:13 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Consulto Formateadores
+Fri Mar 26 15:00:02 COT 2021 > OBTENIENDO CONEXION 71
+Consulto Formateadores
+Fri Mar 26 15:01:28 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 72
+Consulto Formateadores
+Fri Mar 26 15:30:02 COT 2021 > OBTENIENDO CONEXION 71
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL err***core intermedio***Fri Mar 26 15:40:14 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+java.lang.ClassNotFoundException: com.puntored.bemovil.service.BeMovilService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.commons.daemon.support.DaemonLoader.load(DaemonLoader.java:151)
+Cannot load daemon
+Service exit with a return value of 3
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 1
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL out***core intermedio***Fri Mar 26 15:40:15 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+iso-request-avantelpaquetes  <field id="5" value="003054000000"/>
+iso-request-avantelpaquetes  <field id="6" value="000000201   "/>
+iso-request-avantelpaquetes  <field id="44" value="19"/>
+iso-request-avantelpaquetes  <field id="46" value="1199222"/>
+iso-request-avantelpaquetes</isomsg>
+¡¡¡Correcto en Testing!!!
+****** Finalizo Avantel Paquetes *******
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+_________________________________________________________ fin
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 15:40:16 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 15:41:08 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.out***core***Fri Mar 26 15:41:09 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Tipo Envio: 0
+Tipo Envio Trace: 0
+MessageManager:::
+IClientMessage:::
+MessageManager::: com.brainwinner.otp.client.aldeamo.AldeamoChannel@5e6e1c10
+CORE ISO :127.0.0.1:28600
+Disconnecting.....
+Disconnect
+Disconnecting.....
+Disconnect
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.err***core***Fri Mar 26 15:41:10 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Consulto Formateadores
+Fri Mar 26 15:00:02 COT 2021 > OBTENIENDO CONEXION 71
+Consulto Formateadores
+Fri Mar 26 15:01:28 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 72
+Consulto Formateadores
+Fri Mar 26 15:30:02 COT 2021 > OBTENIENDO CONEXION 71
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL err***core intermedio***Fri Mar 26 15:41:12 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+java.lang.ClassNotFoundException: com.puntored.bemovil.service.BeMovilService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.commons.daemon.support.DaemonLoader.load(DaemonLoader.java:151)
+Cannot load daemon
+Service exit with a return value of 3
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 1
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL out***core intermedio***Fri Mar 26 15:41:13 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+iso-request-avantelpaquetes  <field id="5" value="003054000000"/>
+iso-request-avantelpaquetes  <field id="6" value="000000201   "/>
+iso-request-avantelpaquetes  <field id="44" value="19"/>
+iso-request-avantelpaquetes  <field id="46" value="1199222"/>
+iso-request-avantelpaquetes</isomsg>
+¡¡¡Correcto en Testing!!!
+****** Finalizo Avantel Paquetes *******
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+_________________________________________________________ fin
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 15:41:14 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 15:44:30 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.out***core***Fri Mar 26 15:44:32 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Tipo Envio: 0
+Tipo Envio Trace: 0
+MessageManager:::
+IClientMessage:::
+MessageManager::: com.brainwinner.otp.client.aldeamo.AldeamoChannel@5e6e1c10
+CORE ISO :127.0.0.1:28600
+Disconnecting.....
+Disconnect
+Disconnecting.....
+Disconnect
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.err***core***Fri Mar 26 15:44:33 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Consulto Formateadores
+Fri Mar 26 15:00:02 COT 2021 > OBTENIENDO CONEXION 71
+Consulto Formateadores
+Fri Mar 26 15:01:28 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 72
+Consulto Formateadores
+Fri Mar 26 15:30:02 COT 2021 > OBTENIENDO CONEXION 71
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL err***core intermedio***Fri Mar 26 15:44:34 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+java.lang.ClassNotFoundException: com.puntored.bemovil.service.BeMovilService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.commons.daemon.support.DaemonLoader.load(DaemonLoader.java:151)
+Cannot load daemon
+Service exit with a return value of 3
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 1
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL out***core intermedio***Fri Mar 26 15:44:35 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+iso-request-avantelpaquetes  <field id="5" value="003054000000"/>
+iso-request-avantelpaquetes  <field id="6" value="000000201   "/>
+iso-request-avantelpaquetes  <field id="44" value="19"/>
+iso-request-avantelpaquetes  <field id="46" value="1199222"/>
+iso-request-avantelpaquetes</isomsg>
+¡¡¡Correcto en Testing!!!
+****** Finalizo Avantel Paquetes *******
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+_________________________________________________________ fin
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 15:44:35 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 15:45:27 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.out***core***Fri Mar 26 15:45:28 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Tipo Envio: 0
+Tipo Envio Trace: 0
+MessageManager:::
+IClientMessage:::
+MessageManager::: com.brainwinner.otp.client.aldeamo.AldeamoChannel@5e6e1c10
+CORE ISO :127.0.0.1:28600
+Disconnecting.....
+Disconnect
+Disconnecting.....
+Disconnect
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.err***core***Fri Mar 26 15:45:29 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Consulto Formateadores
+Fri Mar 26 15:00:02 COT 2021 > OBTENIENDO CONEXION 71
+Consulto Formateadores
+Fri Mar 26 15:01:28 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 72
+Consulto Formateadores
+Fri Mar 26 15:30:02 COT 2021 > OBTENIENDO CONEXION 71
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL err***core intermedio***Fri Mar 26 15:45:30 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+java.lang.ClassNotFoundException: com.puntored.bemovil.service.BeMovilService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.commons.daemon.support.DaemonLoader.load(DaemonLoader.java:151)
+Cannot load daemon
+Service exit with a return value of 3
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 1
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL out***core intermedio***Fri Mar 26 15:45:31 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+iso-request-avantelpaquetes  <field id="5" value="003054000000"/>
+iso-request-avantelpaquetes  <field id="6" value="000000201   "/>
+iso-request-avantelpaquetes  <field id="44" value="19"/>
+iso-request-avantelpaquetes  <field id="46" value="1199222"/>
+iso-request-avantelpaquetes</isomsg>
+¡¡¡Correcto en Testing!!!
+****** Finalizo Avantel Paquetes *******
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+_________________________________________________________ fin
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 15:45:32 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 16:10:16 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.out***core***Fri Mar 26 16:10:17 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+MessageManager:::
+IClientMessage:::
+MessageManager::: com.brainwinner.otp.client.aldeamo.AldeamoChannel@52845b96
+CORE ISO :127.0.0.1:28600
+Disconnecting.....
+Disconnect
+Disconnecting.....
+Disconnect
+Disconnecting.....
+Disconnect
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.err***core***Fri Mar 26 16:10:18 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 72
+Consulto Formateadores
+Fri Mar 26 15:30:02 COT 2021 > OBTENIENDO CONEXION 71
+Consulto Formateadores
+Fri Mar 26 16:00:01 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 16:00:01 COT 2021 > OBTENIENDO CONEXION 72
+Consulto Formateadores
+Fri Mar 26 16:00:02 COT 2021 > OBTENIENDO CONEXION 71
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL err***core intermedio***Fri Mar 26 16:10:19 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+java.lang.ClassNotFoundException: com.puntored.bemovil.service.BeMovilService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.commons.daemon.support.DaemonLoader.load(DaemonLoader.java:151)
+Cannot load daemon
+Service exit with a return value of 3
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 1
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL out***core intermedio***Fri Mar 26 16:10:20 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+iso-request-avantelpaquetes  <field id="5" value="003054000000"/>
+iso-request-avantelpaquetes  <field id="6" value="000000201   "/>
+iso-request-avantelpaquetes  <field id="44" value="19"/>
+iso-request-avantelpaquetes  <field id="46" value="1199222"/>
+iso-request-avantelpaquetes</isomsg>
+¡¡¡Correcto en Testing!!!
+****** Finalizo Avantel Paquetes *******
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+_________________________________________________________ fin
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 16:10:21 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 16:11:14 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.out***core***Fri Mar 26 16:11:16 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+MessageManager:::
+IClientMessage:::
+MessageManager::: com.brainwinner.otp.client.aldeamo.AldeamoChannel@52845b96
+CORE ISO :127.0.0.1:28600
+Disconnecting.....
+Disconnect
+Disconnecting.....
+Disconnect
+Disconnecting.....
+Disconnect
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.err***core***Fri Mar 26 16:11:16 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 72
+Consulto Formateadores
+Fri Mar 26 15:30:02 COT 2021 > OBTENIENDO CONEXION 71
+Consulto Formateadores
+Fri Mar 26 16:00:01 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 16:00:01 COT 2021 > OBTENIENDO CONEXION 72
+Consulto Formateadores
+Fri Mar 26 16:00:02 COT 2021 > OBTENIENDO CONEXION 71
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL err***core intermedio***Fri Mar 26 16:11:17 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+java.lang.ClassNotFoundException: com.puntored.bemovil.service.BeMovilService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.commons.daemon.support.DaemonLoader.load(DaemonLoader.java:151)
+Cannot load daemon
+Service exit with a return value of 3
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 1
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL out***core intermedio***Fri Mar 26 16:11:18 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+iso-request-avantelpaquetes  <field id="5" value="003054000000"/>
+iso-request-avantelpaquetes  <field id="6" value="000000201   "/>
+iso-request-avantelpaquetes  <field id="44" value="19"/>
+iso-request-avantelpaquetes  <field id="46" value="1199222"/>
+iso-request-avantelpaquetes</isomsg>
+¡¡¡Correcto en Testing!!!
+****** Finalizo Avantel Paquetes *******
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+_________________________________________________________ fin
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 16:11:19 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 16:13:47 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.out***core***Fri Mar 26 16:13:48 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+MessageManager:::
+IClientMessage:::
+MessageManager::: com.brainwinner.otp.client.aldeamo.AldeamoChannel@52845b96
+CORE ISO :127.0.0.1:28600
+Disconnecting.....
+Disconnect
+Disconnecting.....
+Disconnect
+Disconnecting.....
+Disconnect
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log.err***core***Fri Mar 26 16:13:49 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+Consulto Formateadores
+Fri Mar 26 15:30:01 COT 2021 > OBTENIENDO CONEXION 72
+Consulto Formateadores
+Fri Mar 26 15:30:02 COT 2021 > OBTENIENDO CONEXION 71
+Consulto Formateadores
+Fri Mar 26 16:00:01 COT 2021 > OBTENIENDO CONEXION 73
+Consulto Formateadores
+Fri Mar 26 16:00:01 COT 2021 > OBTENIENDO CONEXION 72
+Consulto Formateadores
+Fri Mar 26 16:00:02 COT 2021 > OBTENIENDO CONEXION 71
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL err***core intermedio***Fri Mar 26 16:13:50 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+java.lang.ClassNotFoundException: com.puntored.bemovil.service.BeMovilService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.commons.daemon.support.DaemonLoader.load(DaemonLoader.java:151)
+Cannot load daemon
+Service exit with a return value of 3
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 1
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***Log AVANTEL out***core intermedio***Fri Mar 26 16:13:51 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+iso-request-avantelpaquetes  <field id="5" value="003054000000"/>
+iso-request-avantelpaquetes  <field id="6" value="000000201   "/>
+iso-request-avantelpaquetes  <field id="44" value="19"/>
+iso-request-avantelpaquetes  <field id="46" value="1199222"/>
+iso-request-avantelpaquetes</isomsg>
+¡¡¡Correcto en Testing!!!
+****** Finalizo Avantel Paquetes *******
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+Fri Nov 20 19:02:04 COT 2020 FINALIZA PROCESAMIENTO DE AVANTELPAQUETES
+_________________________________________________________ fin
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+***HYDRUS catalina.out***Fri Mar 26 16:13:52 COT 2021
+-------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------
+Advertencias de Conexion: 0
+Advertencias de Error: 0
+-------------------------------------------------------------------------------------------------------------------
