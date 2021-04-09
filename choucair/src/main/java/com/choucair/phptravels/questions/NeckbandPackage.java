@@ -1,6 +1,6 @@
 package com.choucair.phptravels.questions;
 
-import com.choucair.phptravels.userinterface.PackagePage;
+import com.choucair.phptravels.userinterface.CategoriesPage;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
@@ -23,7 +23,7 @@ public class NeckbandPackage implements Question<Boolean> {
 
 		boolean result;
 
-		String tirilla = Text.of( PackagePage.LABEL_NECKBAND ).viewedBy(actor).asString();
+		String tirilla = Text.of( "" ).viewedBy(actor).asString();
 
 		if ( question.equals(tirilla) ) {
 			result = true;

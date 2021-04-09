@@ -1,32 +1,25 @@
 @Stories
-Feature: Recarga
+Feature: Login to the phptravels page
 
-  Background: Inicio de sesion exitosa
-    Given que estoy en la pagina de inicio de PuntoRed
-    When ingreso mis credenciales
+  Background: login to the phptravels page
+    Given on the home page Phptravels
+    When enter my credentials
       |strEmail|strPassword|
-      ##@externaldata@./src/test/resources/dataTestCase.xlsx@datalogin@
       |admin@phptravels.com|demoadmin|
 
-  Scenario Outline: Recarga
-    Given selecciono el modulo de recargas
-    And selecciono el operador de recarga
-      | strOperador   |
-      | <strOperador> |
-    Then digito el numero y selecciono el valor
-      | strNumber   | strValor   |
-      | <strNumber> | <strValor> |
-    And doy click en el boton continuar
-    Then valido la clave
-      | strPassword  |
-      | <strPassword> |
+  Scenario Outline: Create categorie
+    Given Select menu blog
+    When Select submenu blog categories
+    And Enter button add categorie
+    Then Enter the form data and add the category
+      | txtName  | txtTurkish	| txtArabic  | txtGerman  | txtVietnamese	| txtSpanish  | txtRussian | txtFarsi	| txtFrench  |
+      | <txtName>|<txtTurkish>|<txtArabic> |<txtGerman>	|<txtVietnamese>|<txtSpanish>	|<txtRussian>|<txtFarsi>|<txtFrench> |
     And doy clic en el boton continuar
     Then valido que aparezca la tirilla de recarga
     	| strQuestion  |
       | <strQuestion> |
 
     Examples: 
-      |strNumber|strPassword|strOperador|strValor|strQuestion|
-      ##@externaldata@./src/test/resources/dataTestCase.xlsx@categorie@
-      |1|1|1|1|1|
+       |txtName|txtTurkish|txtArabic|txtGerman|txtVietnamese|txtSpanish|txtRussian|txtFarsi|txtFrench|
+       |txtName|txtTurkish|txtArabic|txtGerman|txtVietnamese|txtSpanish|txtRussian|txtFarsi|txtFrench|
 

@@ -9,4 +9,3 @@ Feature: Login to the phptravels page
 
     Examples: 
     | strEmail | strPassword |
-  	##@externaldata@./src/test/resources/dataTestCase.xlsx@datalogin@

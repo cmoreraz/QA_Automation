@@ -11,8 +11,8 @@ import net.serenitybdd.screenplay.targets.Target;
  */
 public class PrincipalPage {
 	
-	public static final Target IMG_RELOAD 	= Target.the( "Selecciona producto recargas" ).located(By.xpath( "//p[text()='Recargas']" ));
-	public static final Target IMG_PACKAGE 	= Target.the( "Selecciona producto paquetes" ).located(By.xpath( "//p[text()='Paquetes']" ));
-	public static final Target IMG_DAVIVIENDA = Target.the( "Selecciona producto davivienda" ).located(By.xpath( "//img[contains(@src,'https://storage.googleapis.com/cxr-portal-img/IconsWEBP/daviplata.webp')]" ));
+	public static final Target BUTTON_BLOG 		= Target.the( "Select button blog" ).located(By.xpath("//*[@id=\"social-sidebar-menu\"]/li[13]/a"));
+	public static final Target BUTTON_BLOG_CAT 	= Target.the( "Select button blog categories" ).located(By.xpath("//*[@id=\"Blog\"]/li[2]/a"));
+	public static final Target BUTTON_POST 		= Target.the( "Selecciona producto davivienda" ).located(By.xpath("//*[@id=\"Blog\"]/li[1]/a"));
 
 }

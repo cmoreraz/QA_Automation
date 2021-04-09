@@ -26,13 +26,13 @@ public class startSessionStepDefinitions {
         OnStage.setTheStage( new OnlineCast( ) );
     }
 
-	@Given("^que estoy en la pagina de inicio de PuntoRed$")
-	public void queEstoyEnLaPaginaDeInicioDePuntoRed() {
+	@Given("^on the home page Phptravels$")
+	public void onthehomepagePhptravels() {
 		OnStage.theActorCalled( "Andres" ).wasAbleTo( OpenBrowser.thePage());
 	}
 
-	@When("^ingreso mis credenciales$")
-	public void ingresoMisCredenciales( List<LoginData> loginData ) {
+	@When("^enter my credentials$")
+	public void entermycredentials( List<LoginData> loginData ) {
 		OnStage.theActorCalled( "Andres" ).wasAbleTo( OpenBrowser.thePage(), Login.
                 onThePage( loginData.get(0).getStrEmail(), loginData.get(0).getStrPassword() ));
 	}

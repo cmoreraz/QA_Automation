@@ -10,19 +10,19 @@ import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 
-public class SelectDaviplata implements Task {
+public class SelectSubMenuBlogCat implements Task {
 	
-	public static SelectDaviplata selectProduct() {
-		return Tasks.instrumented( SelectDaviplata.class );
+	public static SelectSubMenuBlogCat selectSubMenuBlogCat() {
+		return Tasks.instrumented( SelectSubMenuBlogCat.class );
 	}
 
 	@Override
 	public <T extends Actor> void performAs(T actor) {
 		try {
-			actor.attemptsTo( GenericTime.WaitUntil( PrincipalPage.IMG_DAVIVIENDA ), Click.on( PrincipalPage.IMG_DAVIVIENDA ) );
+			actor.attemptsTo( GenericTime.WaitUntil( PrincipalPage.BUTTON_BLOG_CAT ), Click.on( PrincipalPage.BUTTON_BLOG_CAT ) );
 		} catch ( TimeoutException e ) {
 			System.out.println( "ERROR: Tiempo de espera excedido" + e );
-		}catch (Exception e) {
+		} catch ( Exception e ) {
 			e.printStackTrace();
 		}		
 	}
