@@ -6,6 +6,7 @@ Feature: Recarga
     When ingreso mis credenciales
       |strEmail|strPassword|
       ##@externaldata@./src/test/resources/dataTestCase.xlsx@datalogin@
+      |admin@phptravels.com|demoadmin|
 
   Scenario Outline: Recarga
     Given selecciono el modulo de recargas
@@ -23,9 +24,9 @@ Feature: Recarga
     Then valido que aparezca la tirilla de recarga
     	| strQuestion  |
       | <strQuestion> |
-    And valido los logs de recarga
 
     Examples: 
       |strNumber|strPassword|strOperador|strValor|strQuestion|
       ##@externaldata@./src/test/resources/dataTestCase.xlsx@categorie@
+      |1|1|1|1|1|
 

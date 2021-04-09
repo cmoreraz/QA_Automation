@@ -1,7 +1,7 @@
 #Autor: Andres
-Feature: Inicio de sesion
+Feature: Login to the phptravels page
 
-  Scenario Outline: Inicio de sesion exitosa
+  Scenario Outline: login to the phptravels page
     Given que estoy en la pagina de inicio de PuntoRed
     When ingreso mis credenciales
     | strEmail   | strPassword   |

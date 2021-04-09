@@ -12,13 +12,13 @@ import cucumber.api.SnippetType;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith( CucumberWithSerenity.class )
-@CucumberOptions(	features	= "src/test/resources/co/puntored/portal/features/CreateCategorie.feature",
+@CucumberOptions(	features	= "src/test/resources/com/choucair/phptravels/features/CreateCategorie.feature",
 					glue		= "com.choucair.phptravels.stepdefinitions",
 					snippets 	= SnippetType.CAMELCASE)
 public class CreateCategorieRunner {
 	
 	@BeforeSuite
 	public static void test() throws IOException {
-		DatosAlFeature.overrideFeatureFiles( "./src/test/resources/co/puntored/portal/features/CreateCategorie.feature" );
+		DatosAlFeature.overrideFeatureFiles( "./src/test/resources/com/choucair/phptravels/features/CreateCategorie.feature" );
 	} 
 }
