@@ -1,14 +1,10 @@
 package com.choucair.phptravels.tasks;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.support.ui.Select;
 
 import com.choucair.phptravels.userinterface.AddPostPage;
-import com.choucair.phptravels.userinterface.CategoriesPage;
-import com.choucair.phptravels.utils.GenericTime;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
@@ -46,13 +42,9 @@ public class InputFormPost implements Task {
 	@Override
 	public <T extends Actor> void performAs( T actor ) {
 
-		String categorie  = Text.of( AddPostPage.SELECT_CAT ).viewedBy(actor).asString();
-		String number  = Text.of( AddPostPage.SELECT_NAME_CAT ).viewedBy(actor).asString();		
-				
-		System.out.println(categorie.contentEquals("Categorie 3"));
-		System.out.println(number);
-
-
+		String post  = Text.of( AddPostPage.SELECT_CAT ).viewedBy(actor).asString();
+	
+		
 		actor.attemptsTo(
 				Enter.theValue( txtTitle ).into( AddPostPage.INPUT_TITLE ),
 				Enter.theValue( txtLink, Keys.TAB, txtCont ).into( AddPostPage.INPUT_LINK ),

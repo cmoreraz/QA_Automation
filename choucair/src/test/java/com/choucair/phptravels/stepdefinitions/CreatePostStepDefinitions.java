@@ -3,15 +3,16 @@ package com.choucair.phptravels.stepdefinitions;
 import java.util.List;
 
 import com.choucair.phptravels.models.PostData;
+import com.choucair.phptravels.questions.PostCreate;
 import com.choucair.phptravels.tasks.EnterButtonAddPost;
 import com.choucair.phptravels.tasks.InputFormPost;
 import com.choucair.phptravels.tasks.SelectMenuBlog;
 import com.choucair.phptravels.tasks.SelectSubMenuPost;
-import com.choucair.phptravels.utils.GenericTime;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 
 public class CreatePostStepDefinitions {
@@ -39,11 +40,11 @@ public class CreatePostStepDefinitions {
 				dataPost.get(0).getTxtCont(),
 				dataPost.get(0).getTxtKeywords(),
 				dataPost.get(0).getTxtDescription()) );
-		GenericTime.three();
 	}
 	
 	@Then("^Validate post create$")
 	public void validatePostCreate( List<PostData> dataPost ) {
+		OnStage.theActorInTheSpotlight().should( GivenWhenThen.seeThat( PostCreate.toThe( dataPost.get(0).getTxtTitle())));
 	}
 
 }

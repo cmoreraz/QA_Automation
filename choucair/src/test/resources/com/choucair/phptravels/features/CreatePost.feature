@@ -15,6 +15,8 @@ Feature: Login to the phptravels page
       | txtTitle  | txtLink	| txtCont  | txtNameCat  | txtKeywords	| txtDescription  |
       | <txtTitle>|<txtLink>|<txtCont> |<txtNameCat> |<txtKeywords> |<txtDescription>	|
     And Validate post create
+    	| txtTitle  |
+    	| <txtTitle>|
 
     Examples: 
        |txtTitle|txtLink|txtCont|txtNameCat|txtKeywords|txtDescription|
