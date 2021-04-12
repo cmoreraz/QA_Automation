@@ -1,8 +1,12 @@
 package com.choucair.phptravels.tasks;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import com.choucair.phptravels.userinterface.AddPostPage;
 
@@ -20,12 +24,13 @@ import net.serenitybdd.screenplay.questions.Text;
  */
 
 public class InputFormPost implements Task {
-
+	
 	private String txtTitle;
 	private String txtLink;
 	private String txtCont;
 	private String txtKeywords;
 	private String txtDescription;
+	public static int contador = 0;
 
 	public InputFormPost( String strTitle, String strLink, String strCont, String strKeywords, String strDescription ) {
 		this.txtTitle 		= strTitle;
@@ -40,9 +45,15 @@ public class InputFormPost implements Task {
 	}
 
 	@Override
-	public <T extends Actor> void performAs( T actor ) {
-
-		String post  = Text.of( AddPostPage.SELECT_CAT ).viewedBy(actor).asString();
+	public <T extends Actor> void performAs( T actor ) { 
+		
+		@SuppressWarnings("unchecked")
+		List<WebElement> cat = (List<WebElement>) AddPostPage.SELECT_CAT;
+		
+		for (int i = 0; i < cat.size(); i++) {
+			System.out.println(i);
+			contador++;			
+		}
 	
 		
 		actor.attemptsTo(
