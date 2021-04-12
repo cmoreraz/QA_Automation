@@ -1,9 +1,6 @@
 package com.choucair.phptravels.tasks;
 
-import java.util.List;
-
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 
 import com.choucair.phptravels.userinterface.AddPostPage;
 
@@ -41,15 +38,7 @@ public class InputFormPost implements Task {
 	}
 
 	@Override
-	public <T extends Actor> void performAs( T actor ) { 
-		
-		@SuppressWarnings("unchecked")
-		List<WebElement> cat = (List<WebElement>) AddPostPage.SELECT_CAT;
-		
-		for (int i = 0; i < cat.size(); i++) {
-			System.out.println(i);
-			contador++;			
-		}	
+	public <T extends Actor> void performAs( T actor ) { 	
 		
 		actor.attemptsTo(
 				Enter.theValue( txtTitle ).into( AddPostPage.INPUT_TITLE ),
