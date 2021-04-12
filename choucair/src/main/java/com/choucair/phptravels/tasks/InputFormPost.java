@@ -53,8 +53,7 @@ public class InputFormPost implements Task {
 		for (int i = 0; i < cat.size(); i++) {
 			System.out.println(i);
 			contador++;			
-		}
-	
+		}	
 		
 		actor.attemptsTo(
 				Enter.theValue( txtTitle ).into( AddPostPage.INPUT_TITLE ),
